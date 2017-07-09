@@ -1,0 +1,85 @@
+<_>
+   <form_key>4mS8EgcrgtIvluSB</form_key>
+   <name>Fishpig_AttributeSplash_Addon_XmlSitemap</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+   </version_ids>
+   <summary>Add an XML Sitemap to Attribute Splash Pages.</summary>
+   <description>Add an XML Sitemap to Attribute Splash Pages.</description>
+   <license>FishPig EULA</license>
+   <license_uri>http://fishpig.co.uk/license.txt</license_uri>
+   <version>1.2.0.0</version>
+   <stability>stable</stability>
+   <notes>Removed separate XML sitemap file and added links to default Magento XML sitemap.</notes>
+   <authors>
+      <name>
+         <name>fishpig</name>
+      </name>
+      <user>
+         <user>fishpig</user>
+      </user>
+      <email>
+         <email>ben@fishpig.co.uk</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.0</depends_php_min>
+   <depends_php_max>6.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>      </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mageweb</target>
+      </target>
+      <path>
+         <path/>
+         <path>Fishpig/AttributeSplash/Addon/XmlSitemap</path>
+         <path>app/etc/modules/Fishpig_AttributeSplash_Addon_XmlSitemap.xml</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+</_>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Fishpig_AttributeSplash_Addon_XmlSitemap>
+			<active>true</active>
+			<codePool>community</codePool>
+			<depends>
+				<Fishpig_AttributeSplash />
+			</depends>
+		</Fishpig_AttributeSplash_Addon_XmlSitemap>
+	</modules>
+</config>
