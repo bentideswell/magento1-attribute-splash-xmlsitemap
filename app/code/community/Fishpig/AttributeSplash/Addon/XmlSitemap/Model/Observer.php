@@ -41,7 +41,6 @@ class Fishpig_AttributeSplash_Addon_XmlSitemap_Model_Observer
 
 		foreach($methods as $type => $method) {
 			if (($objects = $this->$method()) !== false) {
-
 				$changeFreq = Mage::getStoreConfig('attributeSplash/' . $type . '_xml_sitemap/frequency');
 				$priority = (float)Mage::getStoreConfig('attributeSplash/' . $type . '_xml_sitemap/priority');
 				
@@ -50,7 +49,7 @@ class Fishpig_AttributeSplash_Addon_XmlSitemap_Model_Observer
 				}
 			}
 		}
-		
+
 		$xml .= '</urlset>';
 		
 		file_put_contents($sitemapFilename, $xml);
