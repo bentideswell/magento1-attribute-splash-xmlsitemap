@@ -1,3 +1,2 @@
 app/code/community/Fishpig/AttributeSplash/Addon/XmlSitemap		app/code/community/Fishpig/AttributeSplash/Addon/XmlSitemap
 app/etc/modules/Fishpig_AttributeSplash_Addon_XmlSitemap.xml		app/etc/modules/Fishpig_AttributeSplash_Addon_XmlSitemap.xml
-var/connect/Fishpig_AttributeSplash_Addon_XmlSitemap.xml				var/connect/Fishpig_AttributeSplash_Addon_XmlSitemap.xml
